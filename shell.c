@@ -144,7 +144,7 @@ Shell MAKE_SH = {
 
 Shell INSTALL_SH = {
     .exe = "make",
-    .dir = "/tmp/pkg-config",
+    .dir = "/tmp/pkg-build",
     .args = { "make", "TARGET", NULL}
 };
 
